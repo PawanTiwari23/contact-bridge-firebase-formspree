@@ -22,6 +22,12 @@ Ideal for portfolio websites, landing pages, or small business contact sections.
 - 🧼 **Clean code** – HTML5, CSS3, optional JS
 
 ---
+## 🔐 Security
+
+- No data is stored on our servers.
+- All messages go directly to your email via Formspree.
+- Basic spam protection via honeypot & required fields.
+
 
 ## 🏗️ Folder Structure
 
