@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Contact</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <main>
+        <section id="contact" class="contact">
+            <h2>Get in Touch</h2>
+            <p class="section-description">Have an exciting project idea, a question, or just want to connect? I'd love to hear from you!</p>
+            
+            <form id="contactForm" class="contact-form"> 
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required> 
+                </div>
+                <div class="form-group">
+                    <input type="text" name="subject" placeholder="Subject (Optional)">
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                <p id="formStatus" class="status-message"></p> </form>
+            
+            <div class="social-links">
+                <a href="mailto:youremail@example.com" target="_blank" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://linkedin.com/in/yourlinkedin" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/yourgithub" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/yourtwitter" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div> 
+        </section>
+    </main>
+
+    <div id="thankYouPopup" class="popup-container">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <i class="fas fa-check-circle success-icon"></i>
+            <h2>Thank You!</h2>
+            <p>Your message has been sent successfully. I'll get back to you as soon as possible.</p>
+            <button class="btn close-btn">Close</button>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore-compat.js"></script>
+    <script src="app.js"></script> </body>
+</html>
