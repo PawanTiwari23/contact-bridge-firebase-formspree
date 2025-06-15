@@ -8,7 +8,7 @@ Ideal for portfolio websites, landing pages, or small business contact sections.
 
 ## 🚀 Live Demo
 
-👉 [View Live Site](https://your-firebase-app.web.app) *(replace with your actual Firebase URL)*
+👉 [View Live Site](https://my-portfolio-805fc.firebaseapp.com/) *(replace with your actual Firebase URL)*
 
 ---
 
