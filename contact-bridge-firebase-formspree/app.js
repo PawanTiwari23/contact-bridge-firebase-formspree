@@ -1,6 +1,6 @@
 // TODO: Replace with your Firebase project configuration
   const firebaseConfig = {
-  apiKey: "AIzaSyD6710HUXJy9YZnhc0bsA7fhX1AkFyskYU",
+  apiKey: "AIzaSyD6710HUXJy9YZnhc0bsAGH87GHJ0JG5Q",
   authDomain: "my-portfolio-805fc.firebaseapp.com",
   projectId: "my-portfolio-805fc",
   storageBucket: "my-portfolio-805fc.firebasestorage.app",
