@@ -40,3 +40,16 @@ Ideal for portfolio websites, landing pages, or small business contact sections.
 | Formspree    | Serverless form submission       |
 | Firebase     | Web hosting                      |
 | JavaScript   | (Optional) Success/Error alerts  |
+
+
+Future Improvements (Roadmap)
+Ye dikhata hai ki aap project ko lekar ambitious hain.
+
+---
+
+## 🔮 Future Improvements
+
+- [ ] Add dark mode toggle 🌙
+- [ ] Add JavaScript form validation before submission
+- [ ] Create a custom "Thank You" redirect page
+
